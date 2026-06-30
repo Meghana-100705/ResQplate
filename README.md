@@ -88,21 +88,20 @@ src/
 
 ---
 
+
+---
+
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
-```bash
+Clone the repository
 git clone https://github.com/your-username/resqplate.git
 cd resqplate
 
-### 2. Install dependencies
-```bash
+Install dependencies
 npm install
 
-### 3. Run development server
-```bash
+Run development server
 npm run dev
 
-##📦 Build for Production
-```bash
+📦 Build for Production
 npm run build
