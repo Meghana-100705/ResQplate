@@ -94,7 +94,7 @@ src/
 ## ⚙️ Installation & Setup
 
 Clone the repository
-git clone https://github.com/your-username/resqplate.git
+git clone https://github.com/Meghana-100705/resqplate.git
 cd resqplate
 
 Install dependencies
