@@ -1,107 +1,60 @@
-# 🍽️ ResqPlate – Food Donation & Redistribution Platform
+🍱 ResQPlate – AI Powered Food Rescue Platform
+📌 Problem Statement
 
-ResqPlate is a web-based platform built for hackathons to reduce food waste and connect food donors (restaurants, individuals, events) with NGOs and volunteers who can redistribute excess food to people in need.
+Every day, restaurants waste excess food while NGOs struggle to find available food donations. ResQPlate solves this by connecting restaurants, NGOs, and volunteers to reduce food waste and feed people in need.
 
----
+🚀 Features
+---------------------------------------------------
+👨‍🍳 Restaurant Side
+---------------------------------------------------
+Add food donations
+Set pickup time & location
+Track donation status
+----------------------------------------------------
+🏢 NGO Side
+----------------------------------------------------
+View available food donations
+Accept requests based on priority
+----------------------------------------------------
+🚚 Volunteer System
+----------------------------------------------------
+Assign volunteers for pickup
+Track delivery status
+------------------------------------------------------
+🤖 AI Module
+------------------------------------------------------
+Priority scoring system for donations based on:
+Food type
+Quantity
+Distance
+Urgency
+--------------------------------------------------------
+🌍 Backend System
+---------------------------------------------------------
+FastAPI backend
+Firebase database integration
+REST APIs for all modules
+---------------------------------------------------------
+🧠 Tech Stack
+---------------------------------------------------------
+Backend: FastAPI (Python)
+Database: Firebase Firestore
+AI Logic: Python-based priority scoring
+----------------------------------------------------------
+📁 Project Structure
+---------------------------------------------------------
+backend/
+└── app/
+    ├── main.py
+    ├── config.py
+    ├── database.py
+    ├── models/
+    ├── schemas/
+    ├── ai/
+    ├── routes/
+    └── services/
 
-## 📌 Problem Statement
-
-Every day, large amounts of edible food are wasted while many people go hungry. There is no efficient system that connects food donors with NGOs in real time.
-
-ResqPlate solves this gap by enabling:
-- Easy food donation posting
-- NGO request tracking
-- Volunteer coordination
-- Impact tracking dashboard
-
----
-
-## ✨ Features
-
-### 👤 Donor Module
-- Add food donation details
-- View donation status
-- Track contribution history
-
-### 🏢 NGO Dashboard
-- View available donations
-- Accept/reject donations
-- Manage collection requests
-
-### 🚴 Volunteer Module
-- View pickup tasks
-- Accept delivery requests
-- Track assigned donations
-
-### 📊 Impact Dashboard
-- Total meals saved
-- Active donations
-- NGO activity tracking
-
-### 🏠 General Features
-- Responsive UI (React + Vite)
-- Modular component structure
-- Clean dashboard system
-- Reusable UI components
-
----
-
-## 🛠️ Tech Stack
-
-- React.js
-- Vite
-- JavaScript (ES6+)
-- HTML5 & CSS3
-- React Router
-- Tailwind CSS (if used)
-- Git & GitHub
-
----
-
-## 📁 Project Structure
-
-src/
-├── components/
-│ ├── Navbar.jsx
-│ ├── Footer.jsx
-│ ├── Hero.jsx
-│ ├── Features.jsx
-│ ├── Stats.jsx
-│ ├── FoodCard.jsx
-│ ├── StatCard.jsx
-│ ├── PriorityBadge.jsx
-│ └── HowItWorks.jsx
-│
-├── pages/
-│ ├── Home.jsx
-│ ├── AddDonation.jsx
-│ ├── DonorDashboard.jsx
-│ ├── NGODashboard.jsx
-│ ├── VolunteerDashboard.jsx
-│ └── ImpactDashboard.jsx
-│
-├── assets/
-├── App.jsx
-├── main.jsx
-└── index.css
-
-
----
-
-
----
-
-## ⚙️ Installation & Setup
-
-Clone the repository
-git clone https://github.com/Meghana-100705/resqplate.git
-cd resqplate
-
-Install dependencies
-npm install
-
-Run development server
-npm run dev
-
-📦 Build for Production
-npm run build
+----------------------------------------------------------
+⭐ Result
+----------------------------------------------------------
+This project helps reduce food waste and improves food distribution efficiency using technology + AI.
