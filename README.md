@@ -4,13 +4,6 @@ ResqPlate is a web-based platform built for hackathons to reduce food waste and 
 
 ---
 
-## 🚀 Live Demo
-(Replace after deployment)
-
-https://your-live-link.vercel.app
-
----
-
 ## 📌 Problem Statement
 
 Every day, large amounts of edible food are wasted while many people go hungry. There is no efficient system that connects food donors with NGOs in real time.
