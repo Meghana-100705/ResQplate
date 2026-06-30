@@ -1,16 +1,113 @@
-# React + Vite
+# 🍽️ ResqPlate – Food Donation & Redistribution Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ResqPlate is a web-based platform built for hackathons to reduce food waste and connect food donors (restaurants, individuals, events) with NGOs and volunteers who can redistribute excess food to people in need.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+(Replace after deployment)
 
-## React Compiler
+https://your-live-link.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Problem Statement
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Every day, large amounts of edible food are wasted while many people go hungry. There is no efficient system that connects food donors with NGOs in real time.
+
+ResqPlate solves this gap by enabling:
+- Easy food donation posting
+- NGO request tracking
+- Volunteer coordination
+- Impact tracking dashboard
+
+---
+
+## ✨ Features
+
+### 👤 Donor Module
+- Add food donation details
+- View donation status
+- Track contribution history
+
+### 🏢 NGO Dashboard
+- View available donations
+- Accept/reject donations
+- Manage collection requests
+
+### 🚴 Volunteer Module
+- View pickup tasks
+- Accept delivery requests
+- Track assigned donations
+
+### 📊 Impact Dashboard
+- Total meals saved
+- Active donations
+- NGO activity tracking
+
+### 🏠 General Features
+- Responsive UI (React + Vite)
+- Modular component structure
+- Clean dashboard system
+- Reusable UI components
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- React Router
+- Tailwind CSS (if used)
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── Hero.jsx
+│ ├── Features.jsx
+│ ├── Stats.jsx
+│ ├── FoodCard.jsx
+│ ├── StatCard.jsx
+│ ├── PriorityBadge.jsx
+│ └── HowItWorks.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── AddDonation.jsx
+│ ├── DonorDashboard.jsx
+│ ├── NGODashboard.jsx
+│ ├── VolunteerDashboard.jsx
+│ └── ImpactDashboard.jsx
+│
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/resqplate.git
+cd resqplate
+
+#### 2. Install dependencies
+npm install
+
+#### 3. Run development server
+npm run dev
+
+##📦 Build for Production
+
+npm run build
